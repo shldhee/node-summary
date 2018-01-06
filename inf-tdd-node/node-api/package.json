@@ -4,12 +4,17 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "body-parser": "^1.18.2",
     "express": "^4.16.2",
     "morgan": "^1.9.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "mocha": "^4.1.0",
+    "should": "^13.2.0",
+    "supertest": "^3.0.0"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha index.spec.js",
     "start": "node index.js"
   },
   "author": "",
