@@ -1,5 +1,5 @@
 const should = require('should');
-const app = require('./index');
+const app = require('../../');
 const request = require('supertest');
 
 describe('GET /users', () => {
